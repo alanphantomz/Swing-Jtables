@@ -20,7 +20,6 @@ public class TablasTest extends javax.swing.JFrame {
     private DefaultTableModel modeloTbl;
     
     public void continuar(Empleado emp){       
-        this.setVisible(true);
         String registro [] = {emp.getNombre(), emp.getApellido(), emp.getTurno(), emp.getSueldo()+""};
         modeloTbl.addRow(registro);
     }
@@ -95,8 +94,6 @@ public class TablasTest extends javax.swing.JFrame {
         // TODO add your handling code here:
         DatosItem formDatos = new DatosItem(this);
         
-        // Escondo la ventana actual
-        this.setVisible(false);
         // Centrado
         formDatos.setLocationRelativeTo(null);
         

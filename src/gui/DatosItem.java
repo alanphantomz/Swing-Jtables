@@ -137,6 +137,7 @@ public class DatosItem extends javax.swing.JFrame {
         String turno = etTurno.getText();
         String sueldo = etSueldo.getText();
         
+        this.setVisible(false);
         // Creo un Empleado con esos datos
         Empleado empleado = new Empleado(nombre, apellido, turno, Double.parseDouble(sueldo));
         tablasForm.continuar(empleado);
