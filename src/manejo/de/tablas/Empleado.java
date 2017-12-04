@@ -60,7 +60,5 @@ public class Empleado {
 
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
-    }
-    
-    
+    }       
 }
